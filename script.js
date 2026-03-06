@@ -3,7 +3,7 @@ const OUT_URL = "";
 const ctas = ["ctaNav","ctaMobile","ctaMain","ctaSecondary","ctaSide","ctaSticky"];
 ctas.forEach(id=>{
   const el = document.getElementById(id);
-  if(el) el.href = OUT_URL || "#";
+  if(el) el.href = OUT_URL || "https://inpmz.ttrk.io/click";
 });
 
 function trackOutbound(label){
